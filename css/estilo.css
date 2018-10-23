@@ -78,3 +78,72 @@ nav img{
     height: 400px;
     background-color: #FF4040;
 }
+.vcsabia{
+    display: block;
+    background-color: #30394b;
+    margin-top:300px;
+   overflow: hidden;
+   height: 500px;
+   padding: 0 50px;
+}
+#h1{
+    display: block;
+    width: 230px;
+   margin:auto;
+   margin-top:16px;
+  
+
+   
+
+}
+#h1 h1 {
+display:block;
+margin:auto;
+ width:216px;
+ color:white;
+}
+#line{
+    height: 5px;
+    width: 108px;
+    margin:10px auto 10px auto;
+    
+    display: block;
+   
+    background-color:#FF4040; 
+}
+.gotas li{
+    display: block;
+    float:left;
+    overflow: hidden;
+    padding: 0 62px;
+
+    
+}
+.gotas li img{
+    width:95px; 
+}
+ .gotas {
+    
+     overflow: hidden;
+     width:1320px;
+     margin:auto;
+     border: solid 1px
+ }
+.gotas ul{
+
+overflow: hidden;
+padding: 0;
+margin:auto;
+border: solid 1px
+
+}
+#curios{
+    display:block;
+    width:908px;
+    background-color: white;
+    height: 200px;
+    border-radius: 8px;
+    padding:40px 0px 0px 20px;
+    margin:25px 0px 0px  50px; 
+   
+}
