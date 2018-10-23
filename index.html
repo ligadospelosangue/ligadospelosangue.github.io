@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
-<body>
+<body onload="renderQuestion()">
     <header>
         <nav>
             <img src="img/logobranco.png" alt="logobranco">
@@ -60,7 +60,27 @@
                     <p>As fake news existem até na doação de sangue. Descubra neste vídeo o que é verdade ou não.</p>
                 </div>
             </div>
-
+        </div>
+        <div id="passos-doacao">
+            <h1>Passos de Doação</h1>
+            <div class="faixa"></div>
+            <div id="cards">
+                <div id="card-1">
+                    <p>Seja um novo herói</p>
+                    <img src="img/icon-notes.png" alt="">
+                    <p>Cadastre-se para ser doador</p>
+                </div>
+                <div id="card-2">
+                    <p>Chamada para missão</p>
+                    <img src="img/icon-notification.png" alt="">
+                    <p>Avisaremos quando seu tipo sanguíneo estiver em falta</p>
+                </div>
+                <div id="card-3">
+                    <p>Você salvará uma vida!</p>
+                    <img src="img/icon-calendar.png" alt="">
+                    <p>Agende um dia para que seja realizada a doação</p>
+                </div>
+            </div>    
         </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
