@@ -1,8 +1,12 @@
 @font-face {
     font-family:GothamLight;
     src: url(../font/GothamLight.ttf);
+    src: url(../font/GothamBook.ttf);
 }
 
+main{
+    overflow: hidden;
+}
 
 body {
     background-color: #FF4040;
@@ -36,6 +40,58 @@ nav img{
 .font-weight-extrabold{
     font-weight: bolder
 }
+
+/* Botões */
+
+.botao{
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+#b-1{
+    position: relative;
+    top: 30px;
+    left: 47%;
+}
+
+#b-2{
+    position: relative;
+    top: -125px;
+    left: 65%;
+}
+
+#b-3{
+    position: relative;
+    top: -265px;
+    left: 83%;
+}
+
+.botao-p{
+    font-size: 1.5rem !important;
+    display: inline !important;
+    float: none !important;
+    padding-top: 0px !important;
+}
+
+.botao a{
+    display: block;
+    margin: auto;
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;
+    background-color: #3c485b;
+}
+
+.botao img{
+    display: block;
+    height: 100%;
+    margin: auto;
+    padding: 25% 0;
+    
+}
+
+/* Apresentação */
 .apresentacao p{
     color: white;
     font-size: 2.2rem;
@@ -43,25 +99,32 @@ nav img{
     float: right;
     text-align: right;
     padding-top: 70px;
-    font-family: GothamLight
+    padding-bottom: 60px;
+    font-family: GothamLight;
 }
 
-.apresentacao img{
-    width: 355px;
-}
 .onda{
+    z-index: -1;
+    position: relative;
     background-image: url(../img/onda.png);
     height: 315px;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: -240px;
+    margin-top: -140px;
 }
 
 .apresentacao-conteudo {
+    overflow: hidden;
     padding-right: 50px;
 }
-.apresentacao-conteudo img{
-    margin: 65px 0 0 50px;
+
+#boneco{
+    display: block;
+    width: 355px;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
 }
 .video{
     height: 400px;
@@ -77,4 +140,33 @@ nav img{
     width: 600px;
     height: 400px;
     background-color: #FF4040;
+}
+
+/* rodapé */
+footer div:first-child{
+    background-image: url("../img/logo_fundo.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer img{
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 9% 0;
+}
+
+footer div:last-child{
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+footer small{
+    font-size: 2rem;
 }
