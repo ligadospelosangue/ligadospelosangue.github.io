@@ -13,26 +13,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar-expand-xl">
             <img src="img/logobranco.png" alt="logobranco">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastro</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Requisitos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contatos</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler collapsed nav" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <div class="navbar-collapse collapse justify-content-end" id="navbarsExample06">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Requisitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -41,30 +50,33 @@
                 <img src="img/boneco.png" id="boneco">
 
                 <p>
-                    <span class="font-weight-bold">Doe sangue!</span><br>
-                    Seja um verdadeiro <span class="font-weight-bold">HERÓI</span><br>
-                    que transforma <span class="font-weight-bold">esperança</span> em vida!
+                    <span class="font-weight-bold">Doe sangue!</span><br>Seja um verdadeiro
+                    <span class="font-weight-bold">HERÓI</span><br>que transforma
+                    <span class="font-weight-bold">esperança</span> em vida! 
                 </p>
 
             </div>
             <div class="onda">
-                <div class="botao" id="b-1">
-                    <a href="#">
-                        <img src="img/video.png" alt="">
-                    </a>
-                    <p class="botao-p">Mitos e Verdades</p>
-                </div>
-                <div class="botao" id="b-2">
-                    <a href="#">
-                        <img src="img/informacao.png" alt="">
-                    </a>
-                    <p class="botao-p">Descubra se<br>Você pode doar</p>
-                </div>
-                <div class="botao" id="b-3">
-                    <a href="#">
-                        <img src="img/curiosidade.png" alt="">
-                    </a>
-                    <p class="botao-p">Você Sabia?</p>
+                <div id="center">
+                    <div class="botao" id="b-1">
+                        <a href="#">
+                            <img src="img/video.png" alt="">
+                        </a>
+                        <p class="botao-p">Mitos e Verdades</p>
+                    </div>
+                    <div class="botao" id="b-2">
+                        <a href="#">
+                            <img src="img/informacao.png" alt="">
+                        </a>
+                        <p class="botao-p">Descubra se
+                            <br>Você pode doar</p>
+                    </div>
+                    <div class="botao" id="b-3">
+                        <a href="#">
+                            <img src="img/curiosidade.png" alt="">
+                        </a>
+                        <p class="botao-p">Você Sabia?</p>
+                    </div>
                 </div>
             </div>
 

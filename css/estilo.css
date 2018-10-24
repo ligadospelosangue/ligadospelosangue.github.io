@@ -12,6 +12,12 @@ body {
     background-color: #FF4040;
 }
 
+header{
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
 nav {
     padding-top: 20px;
     padding-right: 40px;
@@ -37,6 +43,7 @@ nav img{
     color:white;
     border-radius: 10px;
 }
+
 .font-weight-extrabold{
     font-weight: bolder
 }
@@ -77,8 +84,8 @@ nav img{
 .botao a{
     display: block;
     margin: auto;
-    width: 121px;
-    height: 121px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: #3c485b;
 }
@@ -169,4 +176,78 @@ footer div:last-child{
 
 footer small{
     font-size: 2rem;
+}
+
+@media screen and (max-width:1200px){
+    #boneco{
+        display:none;  
+    }
+
+    .apresentacao p{
+        text-align: center;
+        float:none;   
+        padding-bottom: 90px;
+    }
+
+    .apresentacao-conteudo{
+        padding-right: 0px;
+    }
+
+    /* botões alinhados para o responsivo */
+
+    nav span{
+        display: inline !important;
+        color: white;
+        font-size: 1.8rem;
+        padding: 8px 16px;
+    }
+
+    nav button{
+        float: right;
+    }
+
+    nav div{
+        display: block;
+        clear: both;
+        float: right;
+        overflow: hidden;
+        width: 200px;
+    }
+
+    .onda{
+        background-image: none;
+        background-color: #30394B;
+        position: none;
+        margin-top: 0px;
+        z-index: none;
+    }
+
+    #center{
+        display: block;
+        margin: auto;
+        width: 75%;
+    }
+
+    .botao{
+        width: 33%;
+    }
+
+    #b-1{
+        float: left;
+        top: -60px;
+        left: 0%;
+    }
+
+    #b-2{
+        float: left;
+        top: -60px;
+        left: 0%;
+    }
+
+    #b-3{
+        float: left;
+        top: -60px;
+        left: 0%;
+    }
+
 }
