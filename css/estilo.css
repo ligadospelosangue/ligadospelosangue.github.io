@@ -2,10 +2,6 @@
     font-family:GothamLight;
     src: url(../font/GothamLight.ttf);
 }
-*{
-    border: solid black 1px
-}
-
 
 body {
     background-color: #FF4040;
@@ -46,7 +42,8 @@ nav img{
     float: right;
     text-align: right;
     padding-top: 70px;
-    font-family: GothamLight
+    font-family: GothamLight;
+    
 }
 
 .apresentacao img{
@@ -62,6 +59,7 @@ nav img{
 
 .apresentacao-conteudo {
     padding-right: 50px;
+    
 }
 .apresentacao-conteudo img{
     margin: 65px 0 0 50px;
@@ -81,7 +79,7 @@ nav img{
     width: 500px;
     border: solid black 1px;
     margin: auto;
-    border-radius: 11px
+    border-radius: 11px;
 }
 .central2 {
     
@@ -107,7 +105,8 @@ nav img{
 .video-conteudo p{
     font-family:GothamLight;
     src: url(../font/Gotham-Bold.otf);
-    font-size: 1.4rem
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 .play{
     width: 600px;
@@ -116,5 +115,177 @@ nav img{
     float: left;
     border-radius: 10px;
     margin-top: -50px;
-    margin-left: -50px
+    margin-left: -50px;
+}
+.play1{
+ display: none;
+}
+
+.sublinhado{
+    border-top: #FF4040 solid 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 238px;
+}
+iframe{
+    width: 600px;
+    height: 400px;
+    display: block;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+/*CÓDIGO DO DESIGN RESPONSIVO DO VÍDEO*/
+
+@media screen and (max-width: 1192px) {
+    body {
+        background-color: #FF4040;
+    }
+    
+    nav {
+        padding-top: 20px;
+        padding-right: 40px;
+    
+    }
+    nav img{
+        width: 200px;
+        float: left;
+        margin-left: 40px;
+    }
+    .nav-link{
+        font-size: 1.2rem;
+        color: white;
+        
+    }
+    
+    .nav {
+        padding-top: 20px;
+    }
+    
+    .nav-link:hover{
+        background-color: #9b1111;
+        color:white;
+        border-radius: 10px;
+    }
+    .font-weight-extrabold{
+        font-weight: bolder
+    }
+    .apresentacao p{
+        color: white;
+        font-size: 2rem;
+        display: block;
+        float: right;
+        text-align: right;
+        padding-top: 70px;
+        font-family: GothamLight;
+        
+    }
+    
+    .apresentacao img{
+        width: 355px;
+    }
+    .onda{
+        background-image: url(../img/onda.png);
+        height: 315px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: -240px;
+    }
+    
+    .apresentacao-conteudo {
+        padding-right: 50px;
+        
+    }
+    .apresentacao-conteudo img{
+        margin: 65px 0 0 50px;
+    }
+.video{
+    height: 800px;
+    background-color: #30394B; 
+    clear: both;
+    padding-top: 15px
+}
+.apresentacao{
+    clear: both;
+}
+
+.video>div{
+    width: 80%;
+    height: 72%;
+    background-color: white;
+    margin: auto;
+}
+
+.central{
+    display: block;
+    width: 500px;
+    border: solid black 1px;
+    margin: auto;
+    border-radius: 11px;
+}
+
+.central2 {
+    height: 565px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.video-conteudo {
+    /*display: block;*/
+    width: 356px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 133px;
+    border-radius: 10px;
+    clear: both;
+    overflow: hidden
+}
+
+.video-conteudo h1{
+    font-family:GothamLight;
+    src: url(../font/Gotham-Bold.otf);
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.video-conteudo p{
+    font-family:GothamLight;
+    src: url(../font/Gotham-Bold.otf);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.play1{
+    width: 500px;
+    height: 300px;
+    background-color: #FF4040;
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    clear: both 
+    
+    
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: black solid 3px;
+    border-radius: 10px;
+    margin: auto
+}
+.play{
+    display: none;
+}
+
+.sublinhado{
+    border-top: #FF4040 solid 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 112px;
+    margin-left: 119px;
+}
+
 }
