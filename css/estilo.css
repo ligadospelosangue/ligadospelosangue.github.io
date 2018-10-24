@@ -2,7 +2,9 @@
     font-family:GothamLight;
     src: url(../font/GothamLight.ttf);
 }
-
+*{
+    font-family:GothamLight;
+}
 
 body {
     background-color: #FF4040;
@@ -14,7 +16,7 @@ nav {
 
 }
 nav img{
-    width: 400px;
+    width: 200px;
     float: left;
     margin-left: 40px;
 }
@@ -47,7 +49,7 @@ nav img{
 }
 
 .apresentacao img{
-    width: 355px;
+    width: 150px;
 }
 .onda{
     background-image: url(../img/onda.png);
@@ -74,7 +76,7 @@ nav img{
 }
 
 .play{
-    width: 600px;
+    width:100px;
     height: 400px;
     background-color: #FF4040;
 }
@@ -83,67 +85,102 @@ nav img{
     background-color: #30394b;
     margin-top:300px;
    overflow: hidden;
-   height: 500px;
-   padding: 0 50px;
+   height: 800px;
+   
 }
 #h1{
-    display: block;
-    width: 230px;
+   display: block;
+   width: 248px;
    margin:auto;
-   margin-top:16px;
-  
-
-   
-
+   margin-top:45px;
 }
 #h1 h1 {
-display:block;
-margin:auto;
- width:216px;
- color:white;
+    font-size: 3.5 rem;
+    color: white;
+    text-align: center;
 }
-#line{
-    height: 5px;
-    width: 108px;
+.faixa{
+    height: 6px;
+    width: 140px;
     margin:10px auto 10px auto;
-    
     display: block;
-   
-    background-color:#FF4040; 
+    background-color:#FF4040;
+     
 }
 .gotas li{
     display: block;
     float:left;
     overflow: hidden;
-    padding: 0 62px;
+    padding: 0 41px;
+    
 
     
 }
 .gotas li img{
-    width:95px; 
+    width:123px; 
 }
  .gotas {
     
      overflow: hidden;
-     width:1320px;
+     width:1230px;
      margin:auto;
-     border: solid 1px
+     margin-top:20px;
+    
  }
 .gotas ul{
 
-overflow: hidden;
-padding: 0;
-margin:auto;
-border: solid 1px
+    overflow: hidden;
+    padding: 0;
+    margin:auto;
+
 
 }
 #curios{
     display:block;
-    width:908px;
+    width:1079px;
     background-color: white;
-    height: 200px;
+    height: 350px;
     border-radius: 8px;
-    padding:40px 0px 0px 20px;
-    margin:25px 0px 0px  50px; 
+    padding:60px 0px 0px 40px;
+    float: left;
+    
    
 }
+.A{
+    float: left;
+}
+#curios p{
+    clear: both;
+    margin-top: 50px;
+}
+#caixa-red {
+    width: 500px;
+    height: 339px;
+    background-color: #FF4040;
+    border-radius: 8px;
+    display: block;
+    float: right;
+    margin-top: -171px;
+    margin-right: -56px;
+
+}
+#div_maior {
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    width: 1139px;
+    margin-top: 50px;
+    height: 395px;
+}
+@media screen and (max-width: 1210px){
+    .gotas li img{
+        width:123px;
+}
+
+    .gotas li{
+        padding: 0;
+    }
+    .gotas{
+        width:100%;
+        border: 1px solid;
+    }
