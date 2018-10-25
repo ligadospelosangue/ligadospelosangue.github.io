@@ -76,8 +76,8 @@ nav img{
 
 .botao-p{
     font-size: 1.5rem !important;
-    display: inline !important;
     float: none !important;
+    display: inline !important;
     padding-top: 0px !important;
 }
 
@@ -117,7 +117,7 @@ nav img{
     height: 315px;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: -140px;
+    margin-top: -235px;
 }
 
 .apresentacao-conteudo {
@@ -187,6 +187,7 @@ footer small{
         text-align: center;
         float:none;   
         padding-bottom: 90px;
+        padding-top: 25px;
     }
 
     .apresentacao-conteudo{
@@ -194,6 +195,10 @@ footer small{
     }
 
     /* botões alinhados para o responsivo */
+
+    nav{
+        padding-right: 0px;        
+    }
 
     nav span{
         display: inline !important;
@@ -204,14 +209,27 @@ footer small{
 
     nav button{
         float: right;
+        padding-right: 40px;
     }
 
     nav div{
         display: block;
         clear: both;
-        float: right;
+        margin: auto;
         overflow: hidden;
-        width: 200px;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    nav li{
+        width: 100%;
+        display: block;
+        clear: both;
+        float: left;
     }
 
     .onda{
@@ -251,3 +269,74 @@ footer small{
     }
 
 }
+
+@media screen and (max-width:600px){
+
+    nav img {
+        width: 60%;
+        padding-top: 3%;
+    }
+
+    nav button{
+        padding-top: 3% !important;
+    }
+
+    .apresentacao p {
+        font-size: 1.5rem;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .botao-p{
+        display: block !important;
+        text-align: center !important;
+        font-size: 1rem !important;
+    }
+
+    #center{
+        width: 100%;
+    }
+
+    .botao a{
+        width: 100px;
+        height: 100px;
+    }
+
+    small{
+        font-size: 1.5rem !important;
+    }
+
+    #b-1{
+        top: -45px;
+    }
+
+    #b-2{
+        top: -45px;
+    }
+
+    #b-3{
+        top: -45px;
+    }
+}
+
+@media screen and (max-width:400px){
+    
+    #b-1{
+        top: -35px;
+    }
+
+    #b-2{
+        top: -35px;
+    }
+
+    #b-3{
+        top: -35px;
+    }
+
+    .botao a{
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
