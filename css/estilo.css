@@ -107,17 +107,26 @@ nav img{
     background-color:#FF4040;
      
 }
-.gotas li{
+.gotas div{
     display: block;
     float:left;
     overflow: hidden;
-    padding: 0 41px;
+    
     
 
     
 }
-.gotas li img{
-    width:123px; 
+.gotas div:nth-child(2), .gotas div:nth-child(4){
+    padding: 0 41px;
+}
+.gotas div:nth-child(5){
+    padding-right: 41px;
+}
+*{
+    border:solid 1px white;
+}
+.gotas div img{
+    width:153px; 
 }
  .gotas {
     
@@ -127,14 +136,7 @@ nav img{
      margin-top:20px;
     
  }
-.gotas ul{
 
-    overflow: hidden;
-    padding: 0;
-    margin:auto;
-
-
-}
 #curios{
     display:block;
     width:1079px;
@@ -173,14 +175,23 @@ nav img{
     height: 395px;
 }
 @media screen and (max-width: 1210px){
-    .gotas li img{
-        width:123px;
-}
+   
+        
+    .gotas div{
+        padding:0 30px; 
+    }  
+        
+    }
+    .gotas div img{
+        width:80px; 
+    }
 
-    .gotas li{
-        padding: 0;
+}
+@media screen and (max-width: 950px){
+    .gotas div img{
+        width:px; 
     }
-    .gotas{
-        width:100%;
-        border: 1px solid;
-    }
+    .gotas div{
+        padding: 
+    }  
+}
