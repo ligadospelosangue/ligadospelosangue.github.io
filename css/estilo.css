@@ -303,7 +303,6 @@ iframe{
 #passos-doacao {
     height: 800px;
     background-color: #30394b;
-    border: solid 1px white;
     width: 100%;
     clear: both;
 }
@@ -371,6 +370,92 @@ iframe{
 
 #card-3 img {
     width: 150px;
+}
+
+/*VOCE SABIA*/
+
+.vcsabia{
+    display: block;
+    background-color: #30394b;
+    overflow: hidden;
+    height: 800px;
+    clear: both;
+}
+
+#h1{
+   display: block;
+   width: 248px;
+   margin:auto;
+   margin-top:45px;
+}
+#h1 h1 {
+    font-size: 3.5 rem;
+    color: white;
+    text-align: center;
+}
+.faixa{
+    height: 6px;
+    width: 140px;
+    margin:10px auto 10px auto;
+    display: block;
+    background-color:#FF4040;
+     
+}
+.gotas div{
+    display: block;
+    float:left;
+    overflow: hidden;
+}
+
+.gotas div:nth-child(2), .gotas div:nth-child(4){
+    padding: 0 41px;
+}
+.gotas div:nth-child(5){
+    padding-right: 41px;
+}
+.gotas div img{
+    width:153px; 
+}
+
+.gotas {
+    overflow: hidden;
+    width:1230px;
+    margin:auto;
+    margin-top:20px;
+}
+
+#curios{
+    display:block;
+    width:1079px;
+    background-color: white;
+    height: 350px;
+    border-radius: 8px;
+    padding:60px 0px 0px 40px;
+    float: left;
+}
+
+#curios p{
+    clear: both;
+    margin-top: 50px;
+}
+#caixa-red {
+    width: 500px;
+    height: 339px;
+    background-color: #FF4040;
+    border-radius: 8px;
+    display: block;
+    float: right;
+    margin-top: -171px;
+    margin-right: -56px;
+
+}
+#div_maior {
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    width: 1139px;
+    margin-top: 50px;
+    height: 395px;
 }
 
 /* rodapé */
@@ -513,6 +598,14 @@ footer small{
     
     #passos-doacao {
         height: 1460px;
+    }
+
+    .gotas div{
+        padding:0 30px; 
+    }  
+        
+    .gotas div img{
+        width:80px; 
     }
 
 }
