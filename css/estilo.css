@@ -110,6 +110,10 @@ nav img{
     font-family: GothamLight;
 }
 
+.apresentacao{
+    border-bottom: 100px solid #30394b;
+}
+
 .onda{
     z-index: -1;
     position: relative;
@@ -134,29 +138,22 @@ nav img{
     margin-left: 40px;
 }
 .video{
-    height: 400px;
+    height: 600px;
+    width: 100%;
+    padding: 0px 40px;
     background-color: #30394b;
-}
-.video>div{
-    width: 80%;
-    background-color: white;
-    margin: auto;
 }
 
 .central{
+    background-color: white;
+    margin-left: 50px;
     display: block;
-    
-    width: 500px;
-    border: solid black 1px;
-    margin: auto;
     border-radius: 11px;
 }
+
 .central2 {
-    
     height: 380px;
-    background-color: white;
     border-radius: 10px;
-   
 }
 
 .video-conteudo {
