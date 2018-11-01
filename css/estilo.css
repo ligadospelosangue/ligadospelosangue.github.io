@@ -3,6 +3,9 @@
     src: url(../font/GothamLight.ttf);
     src: url(../font/GothamBook.ttf);
 }
+.btn{
+    background-color: #30394B
+}
 
 main{
     overflow: hidden;
