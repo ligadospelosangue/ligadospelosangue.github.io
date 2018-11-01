@@ -386,17 +386,16 @@ iframe{
    display: block;
    width: 248px;
    margin:auto;
-   margin-top:45px;
+   margin-top:25px;
 }
 #h1 h1 {
     font-size: 3.5 rem;
     color: white;
     text-align: center;
 }
-.faixa{
+#faixa{
     height: 6px;
     width: 140px;
-    margin:10px auto 10px auto;
     display: block;
     background-color:#FF4040;
      
@@ -419,7 +418,7 @@ iframe{
 
 .gotas {
     overflow: hidden;
-    width:1230px;
+    width:1137px;
     margin:auto;
     margin-top:20px;
 }
