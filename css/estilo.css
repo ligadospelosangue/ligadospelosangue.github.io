@@ -8,6 +8,16 @@ main{
     overflow: hidden;
 }
 
+.mapa {
+    width: 450px;
+    height: 300px;
+    margin-left: 5px
+}
+
+.modal-body p {
+    text-align: center;
+}
+
 body {
     background-color: #FF4040;
 }
