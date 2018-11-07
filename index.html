@@ -19,6 +19,7 @@
 
 <body onload = "renderQuestion()">
     <header>
+
         <nav class="navbar-expand-xl">
             <img src="img/logobranco.png" class="collapsed" alt="logobranco">
             <button class="navbar-toggler collapsed nav" type="button" data-toggle="collapse" data-target="#navbarsExample06"
@@ -29,16 +30,16 @@
             <div class="navbar-collapse collapse justify-content-end" id="navbarsExample06">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#sobreModal">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cadastro</a>
+                        <a class="nav-link" href="http://www.hemosc.org.br/agende-sua-doacao.html">Cadastro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Requisitos</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#requisitosModalLong">Requisitos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contatos</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#contatoModal">Contatos</a>
                     </li>
                 </ul>
             </div>
@@ -183,6 +184,93 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <div class="modal fade" id="contatoModal" tabindex="-1" role="dialog" aria-labelledby="contatoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contatoModalLabel">Contatos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <p>(48) 3626-7383 <br>Rua Santos Dumontt, s/n <br> 88.701-600 <br> Segunda a Sexta: 07:30h às
+                        12:30h</p>
+                    <div>
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.787763687882!2d-49.01366290501953!3d-28.485937624797653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952142ef7257efbd%3A0x5682a2d7105518e3!2sHemosc+-+Tubar%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1541519402525"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="requisitosModalLong" tabindex="-1" role="dialog" aria-labelledby="requisitosModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requisitosModalLongTitle">Requisitos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <li>Estar em boas condições de saúde. </li>
+                    <li> Ter entre 16 e 69 anos, desde que a primeira doação tenha sido feita até os 60 anos. </li>
+                    <li> Pesar no mínimo 50kg. </li>
+                    <li> Estar descansado (ter dormido pelo menos 6 horas nas últimas 24 horas). </li>
+                    <li> Estar alimentado (evitar alimentação gordurosa nas 4 horas que antecedem a doação). </li>
+                    <li> Apresentar documento original com foto recente, que permita a identificação do candidato,
+                        emitido por órgão oficial (Carteira de Identidade, Cartão de Identidade de Profissional
+                        Liberal, Carteira de Trabalho e Previdência Social). </li>
+                    <p>Para saber mais sobre os Requisitos, clique no HEMOSC.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="http://www.hemosc.org.br/doacao-de-sangue.html" class="btn btn-secondary">HEMOSC</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal sobre fade" id="sobreModal" tabindex="-1" role="dialog" aria-labelledby="sobreModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sobreModalLabel">Sobre</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>A turma do segundo semestre do curso técnico de Informática para Internet 2018/2019, realizou
+                        uma Situação de Aprendizagem relacionando as matérias do período juntamente ao HEMOSC de
+                        Tubarão, com a finalidade de incentivar a doação de sangue com suporte em um cadastro para
+                        doadores aptos a realizar tal atitude e para que sejam convidados a doar quando o tipo
+                        sanguíneo do usuário estiver em falta no hemocentro. <br> O intuito desse site é atrair a
+                        atenção para a empatia com o próximo necessitado.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
