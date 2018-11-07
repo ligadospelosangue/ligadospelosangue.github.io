@@ -693,210 +693,334 @@ footer small{
         margin-left: 119px;
     }
 }
-
-@media screen and (max-width: 1065px){
-    #azul{
-        margin-left: 5%;
+/*Quiz*/
+#quiz {
+    width: 705px;
+    height: 100%;
+    margin: 40px 0px 0px 420px;
+    padding: 10px 50px 50px 50px;
+    border-radius: 10px;
+    background-color:#FF4040;
+}
+.titulo-quiz {
+    background-color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    color: #30394b;
+    padding: 2px 0px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 3px solid #30394b;
+    font-weight: bolder
+}
+.pergunta-quiz {
+    font-size: 2.3rem;
+    color: white;
+    margin: auto;
+    height: 130px;
+    text-align: center;
+}
+#btn-left {
+    float: left;
+    margin-left: 50px;
+}
+#btn-right {
+    float: right;
+    margin-right: 50px;
+}
+#btn-left, #btn-right, .btn-hemosc, #btn-cadastrar, .btn-refazer, .btn-hemoscI, .btn-refazerI {
+    background-color: #ffffff;
+    width: 150px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #30394b;
+    border: 3px solid #30394b;
+    border-radius: 50px;
+    padding: 10px 10px;
+    display: block;
+    text-decoration-line: none
+}
+#btn-left:hover, #btn-right:hover {
+    background-color: #30394b;
+    color: #ffffff;
+}
+#btn-left:focus, #btn-right:focus,{
+    outline: 0;
+}
+.btn-hemosc:hover {
+    text-decoration: none;
+    background-color: #30394b;
+    color: #ffffff;
+}
+.btn-refazer:hover{
+    text-decoration: none;
+    background-color: #30394b;
+    color: #ffffff;
+}
+.btn-hemosc, .btn-refazer{
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+}
+.btn-hemoscI, .btn-refazerI{
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+}
+.btn-hemoscI:hover {
+    text-decoration: none;
+    background-color: #30394b;
+    color: #ffffff;
+}
+.btn-refazerI:hover{
+    text-decoration: none;
+    background-color: #30394b;
+    color: #ffffff;
+}
+.subtitulo{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+}
+.quiz-esquerdo{
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.quiz-direito{
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+.btn-hemosc{
+    display: block;
+    float: left;
+    margin-left: 50px
+}
+.btn-refazer{
+    display: block;
+    float: right;
+    margin-right: 35px
+}
+.p-esquerdo{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.p-direito{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.quiz-esquerdoI{
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-left: 30px
+}
+.quiz-direitoI{
+    display: block;
+    float: right;
+    overflow: hidden;
+    margin-right: 30px
+}
+.btn-hemoscI{
+    display: block;
+    float: left;
+    margin-left: 0px;
+    margin-top: 25px
+}
+.btn-refazerI{
+    display: block;
+    float: right;
+    margin-right: 10px
+}
+.p-esquerdoI{
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.p-direitoI{
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+}
+#azul{
+    margin-left: 100px;
+}
+#baixo a{
+    margin-right: 115px;
+    padding: auto;
+    font-size: 1.8rem;
+}
+#baixo p{
+    margin-left: 120px;
+    font-size: 1.8rem;
+}
+#baixo a:hover{
+    display: block;
+    float: right;
+    overflow: hidden;
+    background-color: #30394b;
+    margin-right: 100px;
+    padding: auto;
+    font-size: 2.3rem;
+    color: white;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1192px){
+    #quiz {
+        width: 550px !important;
+        height: 100%;
+        margin: auto;
+        padding: 10px 50px 50px 50px;
+        border-radius: 10px;
+        background-color:#FF4040;
     }
-    #baixo a{
+    .titulo-quiz {
+        background-color: #ffffff;
+        font-size: 50px;
+        text-align: center;
+        color: #30394b;
+        padding: 2px 0px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: 3px solid #30394b;
+        font-weight: bolder
+    }
+    
+    .pergunta-quiz {
+        font-size: 2.3rem;
+        color: white;
+        margin: auto;
+        height: 130px;
+        text-align: center;
+    }
+    #btn-left {
+        float: left;
+        margin-left: 50px;
+    }
+    #btn-right {
+        float: right;
         margin-right: 50px;
-        padding: 1px 50px;
-        font-size: 1.8rem;
     }
-    #baixo p{
-        margin-left: 9%;
-        font-size: 1.8rem;
+    #btn-left, #btn-right, .btn-hemosc, #btn-cadastrar, .btn-refazer, .btn-hemoscI, .btn-refazerI {
+        background-color: #ffffff;
+        width: 150px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #30394b;
+        border: 3px solid #30394b;
+        border-radius: 50px;
+        padding: 10px 10px;
+        display: block;
+        text-decoration-line: none
     }
-    #baixo a:hover{
+    #btn-left:hover, #btn-right:hover {
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    #btn-left:focus, #btn-right:focus,{
+        outline: 0;
+    }
+    .btn-hemosc:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazer:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-hemosc, .btn-refazer{
+        margin-bottom: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    .btn-hemoscI, .btn-refazerI{
+        margin-bottom: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    .btn-hemoscI:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazerI:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .subtitulo{
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .quiz-esquerdo{
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .quiz-direito{
         display: block;
         float: right;
         overflow: hidden;
-        background-color: #30394b;
-        margin-right: 110px;
-        padding: 2px 70px;
-        font-size: 2.3rem;
-        color: white;
-        border-radius: 10px;
-        margin-right: 30%
     }
-}
-
-@media screen and (max-width: 1035px){
-    #azul{
-        width: 70%;
-        margin: 5% 10% 13% 9%;
-        height: 60%;
-    }
-    #quiz{
-        width: 75%;
-        height: 100%;
-        margin-left: 200px;
-        margin: 40px 0px 0px 300px;
-    }
-    #esquerda h1{
-        font-size: 1.8rem;
-    }
-    
-    #esquerda p{
-        font-size: 1.2rem;
-    }
-    .texto{
-        width: 230px;
-        margin: 0px 0px 0px 40px;
-        text-align: right;
-    }
-    #linha{
-        margin: 15px 0px 15px 170px
-    }
-    #baixo a{
-        margin-right: 90px;
-    }
-}
-
-@media screen and (max-width: 840px){
-    #meio{
-        height: 500px;
-    }
-    #azul{
-        width: 65%;
-        margin: 5% 10% 0% 9%;
-        height: 58%;
-    }
-    #quiz{
-        width: 75%;
-        height: 100%;
-        margin-left: 200px;
-        margin: 40px 0px 0px 280px;
-    }
-    #primeiro{
-        margin-top: 55px;
-    }
-    #esquerda h1{
-        font-size: 1.8rem;
-    }
-    #esquerda p{
-        font-size: 1.2rem;
-    }
-    .texto{
-        width: 220px;
-        margin: 0px 0px 0px 40px;
-        text-align: right;
-    }
-    #linha{
-        margin: 15px 0px 15px 160px
-    }
-    #baixo a{
-        margin-right: 70px;
-        font-size: 1.5rem;
-        margin-top: 0.5%;
-        padding-bottom: 0.5%
-    }
-    #baixo p{
-        font-size: 1.5rem;
-        margin-top: 0.5%;
-        padding-bottom: 0.5%
-    }
-}
-
-@media screen and (max-width: 712px){
-    .video-conteudo {
-        width: 100%;
+    .btn-hemosc{
+        display: block;
         float: left;
-        margin-top: 17px;
-        margin-left: 0px;
-        border-radius: 10px;
-        clear: both;
-        overflow: hidden
+        margin-left: 50px
     }
-    
-    .video-conteudo h1{
-        font-family:GothamLight;
-        src: url(../font/Gotham-Bold.otf);
-        font-size: 2.6rem;
+    .btn-refazer{
+        display: block;
+        float: right;
+        margin-right: 35px
+    }
+    .p-esquerdo{
+        display: block;
         text-align: center;
-    }
-        
-    .video-conteudo p{
-        font-family:GothamLight;
-        src: url(../font/Gotham-Bold.otf);
-        font-size: 1.4rem;
-        font-weight: bold;
-        text-align: center;        
-    }
-        
-    .play1{
-        width: 85%;
-        height: 53%;
-        background-color: #FF4040;
-        margin: auto;
-        border-radius: 10px;
-        display: block;
-        clear: both         
-    }
-    
-    iframe{
-        width: 100%;
-        height: 100%;
-        display: block;
-        border: #FF4040 solid 3px;
-        border-radius: 10px;
-        margin: auto
-    }
-    
-    .play{
-        display: none;
-    }
-        
-    .sublinhado{
-        border-top: #FF4040 solid 6px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 112px;
-        margin-left: 119px;
-    }
-    #meio{
-        height: 450px;
-    }
-    #azul{
-        margin: 5% 10% 0% 7%;
-    }
-    #quiz{
-        margin-left: 200px;
-        margin: 40px 0px 0px 270px;
-    }
-    #primeiro{
-        margin-top: 45px;
-    }
-    #esquerda h1{
-        font-size: 1.7rem;
-    }
-    #esquerda p{
         font-size: 1.1rem;
     }
-    .texto{
-        width: 220px;
-        margin: 0px 0px 0px 20px;
+    .p-direito{
+        display: block;
+        text-align: center;
+        font-size: 1.1rem;
     }
-    #linha{
-        margin: 15px 0px 15px 170px;
-        width: 70px;
+    .quiz-esquerdoI{
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin-left: 30px
     }
-    #baixo{
-        height: 25px;
+    .quiz-direitoI{
+        display: block;
+        float: right;
+        overflow: hidden;
+        margin-right: 30px
     }
-    #baixo a{
-        margin-right: 50px;
-        font-size: 1.3rem;
-        margin-top: 0.5%;
-        padding-bottom: 0.5%;
+    .btn-hemoscI{
+        display: block;
+        float: left;
+        margin-left: 0px;
+        margin-top: 25px
     }
-    #baixo p{
-        font-size: 1.3rem;
-        margin-left: 50px;
+    .btn-refazerI{
+        display: block;
+        float: right;
+        margin-right: 10px
     }
-}
-
-@media screen and (max-width: 651px){
+    .p-esquerdoI{
+        display: block;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .p-direitoI{
+        display: block;
+        text-align: center;
+        font-size: 1.1rem;
+    }
     #meio{
         height: 800px;
     }
@@ -908,11 +1032,10 @@ footer small{
     #esquerda{
         float: left;
         width: 100%;
-        padding-left: 50px;
     }
     .texto{
         width: 320px;
-        margin: 0px 0px 0px 60px;
+        margin: auto;
         text-align: center;
     }
     #primeiro{
@@ -921,12 +1044,14 @@ footer small{
     #linha{
         width: 130px;
         height: 7px;
-        margin: 15px 0px 15px 152px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px
     }
     #quiz{
         width: 85%;
         height: 51.5%;
-        margin: 300px 40px 0px 40px;
+        margin: 300px auto 0px auto;
     }
     #esquerda h1{
         font-size: 2.8rem;
@@ -936,21 +1061,20 @@ footer small{
     }
     #baixo{
         padding: 1% 0%;
-        height: 80px;
+        height: 150px;
     }
     #baixo p{
         font-size: 2.5rem;
-        margin-left: 9%;
         clear: both;
         float: none;
         text-align: center;
-        margin: 0%
+        margin: auto;
     }
     #baixo a{
         clear: both;
         float: none;
         width: 65%;
-        margin: 0px 100px 30px 110px;
+        margin: auto;
         text-align: center;
         padding: 2px 0px 10px 0px;
         font-size: 2.3rem;
@@ -960,14 +1084,856 @@ footer small{
         clear: both;
         float: none;
         width: 65%;
-        margin: 0px 100px 30px 110px;
+        margin: auto;
         text-align: center;
         padding: 2px 0px 10px 0px;
         font-size: 2.3rem;
         font-weight: bolder
     }
 }
-
+@media screen and (max-width: 700px){
+    #quiz {
+        width: 350px !important;
+        height: 100%;
+        margin: auto;
+        padding: 10px 50px 50px 50px;
+        border-radius: 10px;
+        background-color:#FF4040;
+    }
+    .titulo-quiz {
+        background-color: #ffffff;
+        font-size: 2rem;
+        text-align: center;
+        color: #30394b;
+        padding: 2px 0px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: 3px solid #30394b;
+        font-weight: bolder
+    }
+    .pergunta-quiz {
+        font-size: 1.5rem;
+        color: white;
+        margin: auto;
+        height: 130px;
+        text-align: center;
+    }
+    #btn-left {
+        float: left;
+        margin-left: 0px;
+    }
+    #btn-right {
+        float: right;
+        margin-right: 0px;
+    }
+    #btn-left, #btn-right, .btn-hemosc, #btn-cadastrar, .btn-refazer, .btn-hemoscI, .btn-refazerI {
+        background-color: #ffffff;
+        width: 100px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #30394b;
+        border: 3px solid #30394b;
+        border-radius: 50px;
+        padding: 10px 10px;
+        display: block;
+        text-decoration-line: none
+    }
+    #btn-left:hover, #btn-right:hover {
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    #btn-left:focus, #btn-right:focus,{
+        outline: 0;
+    }
+    .btn-hemosc:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazer:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-hemosc, .btn-refazer{
+        margin-bottom: 20px;
+        width: 150px;
+        text-align: center;
+    }
+    .btn-hemoscI, .btn-refazerI{
+        margin-bottom: 20px;
+        width: 160px;
+        text-align: center;
+    }
+    .btn-hemoscI:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazerI:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .quiz-esquerdo{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .quiz-direito{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .btn-hemosc{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .btn-refazer{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .p-esquerdo{
+        display: none
+    }
+    .p-direito{
+        display: none
+    }
+    .quiz-esquerdoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin-left: 30px
+    }
+    .quiz-direitoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin-right: 30px
+    }
+    .btn-hemoscI{
+        display: block;
+        float: none;
+        margin: 0px 15px
+    }
+    .btn-refazerI{
+        display: block;
+        float: none;
+        margin: 0px 45px
+    }
+    .p-esquerdoI{
+        display: none
+    }
+    .p-direitoI{
+        display: none
+    }
+    #meio{
+        height: 800px;
+    }
+    #azul{
+        width: 83%;
+        margin: 5% 9% 13% 9%;
+        height: 90%;
+    }
+    #esquerda{
+        float: left;
+        width: 100%;
+    }
+    .texto{
+        width: 320px;
+        margin: auto;
+        text-align: center;
+    }
+    #primeiro{
+        margin-top: 35px;
+    }
+    #linha{
+        width: 130px;
+        height: 7px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+    #quiz{
+        width: 85%;
+        height: 51.5%;
+        margin: 300px auto 0px auto;
+    }
+    #esquerda h1{
+        font-size: 2.8rem;
+    }
+    #esquerda p{
+        font-size: 1.7rem;
+    }
+    #baixo{
+        padding: 1% 0%;
+        height: 150px;
+    }
+    #baixo p{
+        font-size: 2.5rem;
+        clear: both;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    #baixo a{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+    #baixo a:hover{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+}
+@media screen and (max-width: 480px){
+    #quiz {
+        width: 320px !important;
+        height: 100%;
+        margin: auto;
+        padding: 10px 50px 50px 50px;
+        border-radius: 10px;
+        background-color:#FF4040;
+    }
+    .titulo-quiz {
+        background-color: #ffffff;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #30394b;
+        padding: 2px 0px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: 3px solid #30394b;
+        font-weight: bolder
+    }
+    .pergunta-quiz {
+        font-size: 1.5rem;
+        color: white;
+        margin: auto;
+        height: 130px;
+        text-align: center;
+    }
+    #btn-left {
+        float: left;
+        margin-left: 0px;
+    }
+    #btn-right {
+        float: right;
+        margin-right: 0px;
+    }
+    #btn-left, #btn-right, .btn-hemosc, #btn-cadastrar, .btn-refazer, .btn-hemoscI, .btn-refazerI {
+        background-color: #ffffff;
+        width: 100px;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        color: #30394b;
+        border: 3px solid #30394b;
+        border-radius: 50px;
+        padding: 10px 10px;
+        display: block;
+        text-decoration-line: none
+    }
+    #btn-left:hover, #btn-right:hover {
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    #btn-left:focus, #btn-right:focus,{
+        outline: 0;
+    }
+    .btn-hemosc:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazer:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-hemosc, .btn-refazer{
+        margin-bottom: 20px;
+        width: 150px;
+        text-align: center;
+    }
+    .btn-hemoscI, .btn-refazerI{
+        margin-bottom: 20px;
+        width: 160px;
+        text-align: center;
+    }
+    .btn-hemoscI:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazerI:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .subtitulo{
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .quiz-esquerdo{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .quiz-direito{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .btn-hemosc{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .btn-refazer{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .p-esquerdo{
+        display: none
+    }
+    .p-direito{
+        display: none
+    }
+    .quiz-esquerdoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin-left: 15px
+    }
+    .quiz-direitoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin-right: 15px
+    }
+    .btn-hemoscI{
+        display: block;
+        float: none;
+        margin: 0px 15px
+    }
+    .btn-refazerI{
+        display: block;
+        float: none;
+        margin: 0px 30px
+    }
+    .p-esquerdoI{
+        display: none
+    }
+    .p-direitoI{
+        display: none
+    }
+    #meio{
+        height: 800px;
+    }
+    #azul{
+        width: 83%;
+        margin: 5% 9% 13% 9%;
+        height: 90%;
+    }
+    #esquerda{
+        float: left;
+        width: 100%;
+    }
+    .texto{
+        width: 320px;
+        margin: auto;
+        text-align: center;
+    }
+    #primeiro{
+        margin-top: 35px;
+    }
+    #linha{
+        width: 130px;
+        height: 7px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+    #quiz{
+        width: 85%;
+        height: 51.5%;
+        margin: 300px auto 0px auto;
+    }
+    #esquerda h1{
+        font-size: 2.8rem;
+    }
+    #esquerda p{
+        font-size: 1.7rem;
+    }
+    #baixo{
+        padding: 1% 0%;
+        height: 150px;
+    }
+    #baixo p{
+        font-size: 2.5rem;
+        clear: both;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    #baixo a{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+    #baixo a:hover{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+}
+@media screen and (max-width: 420px){
+    #quiz {
+        width: 280px !important;
+        height: 55% !important;
+        margin: auto;
+        padding: 10px 50px 50px 50px;
+        border-radius: 10px;
+        background-color:#FF4040;
+    }
+    .titulo-quiz {
+        background-color: #ffffff;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #30394b;
+        padding: 2px 0px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: 3px solid #30394b;
+        font-weight: bolder
+    }
+    .pergunta-quiz {
+        font-size: 1.4rem;
+        color: white;
+        margin: auto;
+        height: 130px;
+        text-align: center;
+    }
+    #btn-left {
+        float: left;
+        margin-left: 0px;
+    }
+    #btn-right {
+        float: right;
+        margin-right: 0px;
+    }
+    #btn-left, #btn-right, .btn-hemosc, #btn-cadastrar, .btn-refazer, .btn-hemoscI, .btn-refazerI {
+        background-color: #ffffff;
+        width: 70px;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        color: #30394b;
+        border: 3px solid #30394b;
+        border-radius: 50px;
+        padding: 5px 10px;
+        display: block;
+        text-decoration-line: none
+    }
+    #btn-left:hover, #btn-right:hover {
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    #btn-left:focus, #btn-right:focus,{
+        outline: 0;
+    }
+    .btn-hemosc:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazer:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-hemosc, .btn-refazer{
+        margin-bottom: 20px;
+        width: 150px;
+        text-align: center;
+    }
+    .btn-hemoscI, .btn-refazerI{
+        margin-bottom: 20px;
+        width: 160px;
+        text-align: center;
+    }
+    .btn-hemoscI:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazerI:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .subtitulo{
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .quiz-esquerdo{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .quiz-direito{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .btn-hemosc{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .btn-refazer{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .p-esquerdo{
+        display: none
+    }
+    .p-direito{
+        display: none
+    }
+    .quiz-esquerdoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin: 0px 0px
+    }
+    .quiz-direitoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin: 0px 0px
+    }
+    .btn-hemoscI{
+        display: block;
+        float: none;
+        margin: 0px 5px
+    }
+    .btn-refazerI{
+        display: block;
+        float: none;
+        margin: 0px 5px
+    }
+    .p-esquerdoI{
+        display: none
+    }
+    .p-direitoI{
+        display: none
+    }
+    #meio{
+        height: 800px;
+    }
+    #azul{
+        width: 83%;
+        margin: 5% 9% 13% 9%;
+        height: 90%;
+    }
+    #esquerda{
+        float: left;
+        width: 100%;
+    }
+    .texto{
+        width: 320px;
+        margin: auto;
+        text-align: center;
+    }
+    #primeiro{
+        margin-top: 35px;
+    }
+    #linha{
+        width: 130px;
+        height: 7px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+    #esquerda h1{
+        font-size: 2.8rem;
+    }
+    #esquerda p{
+        font-size: 1.7rem;
+    }
+    #baixo{
+        padding: 1% 0%;
+        height: 150px;
+    }
+    #baixo p{
+        font-size: 2.5rem;
+        clear: both;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    #baixo a{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+    #baixo a:hover{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+}
+@media screen and (max-width: 392px){
+    #quiz {
+        width: 260px !important;
+        height: 55% !important;
+        margin: 230px auto 0px 20px !important;
+        padding: 10px 50px 50px 50px;
+        border-radius: 10px;
+        background-color:#FF4040;
+    }
+    .titulo-quiz {
+        background-color: #ffffff;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #30394b;
+        padding: 2px 0px;
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 3px solid #30394b;
+        font-weight: bolder
+    }
+    .pergunta-quiz {
+        font-size: 1.1rem;
+        color: white;
+        margin: auto;
+        height: 80px;
+        text-align: center;
+    }
+    #btn-left {
+        float: left;
+        margin-left: 0px;
+    }
+    #btn-right {
+        float: right;
+        margin-right: 0px;
+    }
+    #btn-left, #btn-right, .btn-hemosc, #btn-cadastrar, .btn-refazer, .btn-hemoscI, .btn-refazerI {
+        background-color: #ffffff;
+        width: 70px;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        color: #30394b;
+        border: 3px solid #30394b;
+        border-radius: 50px;
+        padding: 0px 10px;
+        display: block;
+        text-decoration-line: none
+    }
+    #btn-left:hover, #btn-right:hover {
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    #btn-left:focus, #btn-right:focus,{
+        outline: 0;
+    }
+    .btn-hemosc:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazer:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-hemosc, .btn-refazer{
+        margin-bottom: 20px;
+        width: 140px;
+        text-align: center;
+    }
+    .btn-hemoscI, .btn-refazerI{
+        margin-bottom: 20px;
+        width: 140px;;
+        text-align: center;
+    }
+    .btn-hemoscI:hover {
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .btn-refazerI:hover{
+        text-decoration: none;
+        background-color: #30394b;
+        color: #ffffff;
+    }
+    .subtitulo{
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .quiz-esquerdo{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .quiz-direito{
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .btn-hemosc{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .btn-refazer{
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .p-esquerdo{
+        display: none
+    }
+    .p-direito{
+        display: none
+    }
+    .quiz-esquerdoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin: 0px 0px
+    }
+    .quiz-direitoI{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin: 0px 0px
+    }
+    .btn-hemoscI{
+        display: block;
+        float: none;
+        margin: 0px 5px
+    }
+    .btn-refazerI{
+        display: block;
+        float: none;
+        margin: 0px 5px
+    }
+    .p-esquerdoI{
+        display: none
+    }
+    .p-direitoI{
+        display: none
+    }
+    #meio{
+        height: 800px;
+    }
+    #azul{
+        width: 83%;
+        margin: 5% 9% 13% 9%;
+        height: 90%;
+    }
+    #esquerda{
+        float: left;
+        width: 100%;
+        margin-left: 5px
+    }
+    .texto{
+        width: 320px;
+        margin: auto;
+        text-align: center;
+    }
+    #primeiro{
+        margin-top: 35px;
+    }
+    #linha{
+        width: 130px;
+        height: 7px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+    #esquerda h1{
+        font-size: 2.8rem;
+    }
+    #esquerda p{
+        font-size: 1.7rem;
+    }
+    #baixo{
+        padding: 1% 0%;
+        height: 150px;
+    }
+    #baixo p{
+        font-size: 2.5rem;
+        clear: both;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    #baixo a{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+    #baixo a:hover{
+        clear: both;
+        float: none;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 2px 0px 10px 0px;
+        font-size: 2.3rem;
+        font-weight: bolder
+    }
+}
 @media screen and (max-width:600px){
 
     nav img {
