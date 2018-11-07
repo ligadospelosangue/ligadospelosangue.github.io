@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.borda {
+    border: 1px solid white;
+}
 @font-face {
     font-family:GothamLight;
     src: url(../font/GothamLight.ttf);
@@ -372,13 +379,12 @@ iframe{
     width: 150px;
 }
 
-/*VOCE SABIA*/
+/*VOCE SABIA*//* <!-------------------------------------------------------CURIOSIDADES-----------------------> */
 
 .vcsabia{
-    display: block;
     background-color: #30394b;
     overflow: hidden;
-    height: 800px;
+    height: 840px;
     clear: both;
 }
 
@@ -393,50 +399,56 @@ iframe{
     color: white;
     text-align: center;
 }
-.faixa{
-    height: 6px;
-    width: 140px;
-    margin:10px auto 10px auto;
-    display: block;
-    background-color:#FF4040;
-     
-}
-.gotas div{
-    display: block;
-    float:left;
-    overflow: hidden;
-}
-
-.gotas div:nth-child(2), .gotas div:nth-child(4){
-    padding: 0 41px;
-}
-.gotas div:nth-child(5){
-    padding-right: 41px;
-}
-.gotas div img{
-    width:153px; 
-}
-
 .gotas {
     overflow: hidden;
-    width:1230px;
+    width:1150px;
     margin:auto;
     margin-top:20px;
 }
-
-#curios{
-    display:block;
-    width:1079px;
-    background-color: white;
-    height: 350px;
-    border-radius: 8px;
-    padding:60px 0px 0px 40px;
-    float: left;
+.gotas div:not(:last-child){
+    float:left;
+    margin-right: 50px;
+}
+.gotas div:last-child{
+    float:right;
 }
 
-#curios p{
-    clear: both;
-    margin-top: 50px;
+.gota{
+    background-image: url("../img/GOTS.png ");
+    width:150px; 
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.gota img{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 108px;
+    border: 2px solid white;
+    padding: 10px 0 10px 0;
+    border-radius: 35px;
+    padding: 3px;
+}
+.gotas img:hover{
+    width: 80px;
+    height: 80px;
+    transition: 100ms;  
+    margin-top: 103px;
+    border: 2px solid rgb(68, 25, 25);
+}
+.gotas img:active{
+    border: 7px solid rgb(68, 25, 25);   
+}
+
+#curios{
+    width: 1079px;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    position: absolute;
 }
 #caixa-red {
     width: 500px;
@@ -445,19 +457,38 @@ iframe{
     border-radius: 8px;
     display: block;
     float: right;
-    margin-top: -171px;
-    margin-right: -56px;
-
+    position: relative;
+    margin-top: 31px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 #div_maior {
     overflow: hidden;
-    display: block;
     margin: auto;
-    width: 1139px;
+    width: 1150px;
     margin-top: 50px;
     height: 395px;
 }
+#curios-conteudo{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 570px;
+    height: 240px;
+}
+#faixa-conteudo{
+    height: 6px;
+    width: 140px;
+    background-color: #FF4040;
+    float: left;
+}
+#curios-p{
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 30px;
+}
 
+/* <!-- -----------------------------------------------------CURIOSIDADES-----------------------> */
 /* rodapé */
 footer div:first-child{
     background-image: url("../img/logo_fundo.png");
@@ -608,6 +639,55 @@ footer small{
         width:80px; 
     }
 
+    /*############VOCE SABIA############*/
+#curios{
+    width:580px;
+    height: 669px;
+}
+#div_maior{
+    width: 580px;
+    height: 563px;
+}
+.vcsabia{
+    height: 1120px;
+}
+#caixa-red{
+    float: none;
+    margin: auto;
+    margin-top: 222px;
+    
+}
+#curios-conteudo{
+    width: 362px;
+    margin: auto;
+    margin-top: 40px;
+}
+#curios-p{
+    text-align: center;
+}
+#curios-conteudo h1{
+    text-align: center;
+}
+#faixa-conteudo {
+    float: none;
+    margin: auto;
+    
+}
+.gotas{
+    width: 580px;
+    height: 179px;
+}
+.gota {
+    width: 88px;
+}
+
+.gotas div:not(:last-child) {
+  
+    margin-right: 10px;
+}
+.gotas div {
+     padding: 0 0px;
+}
 }
 
 @media screen and (max-width: 1192px) {

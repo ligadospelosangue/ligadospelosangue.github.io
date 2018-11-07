@@ -1,0 +1,1 @@
+function.renderQuestion() -> função criada.

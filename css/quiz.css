@@ -1,0 +1,85 @@
+
+#test { 
+    border:#000 1px solid; 
+    padding:10px 40px 40px 40px; 
+    width: 400px;
+}
+
+#quiz {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 5px;
+    border: 2px solid #cbcbcb;
+    margin-top: 30px;
+    background-image: url('../img/fundo1.png');
+)
+}
+
+.titulo-quiz {
+    font-family: "sans-serif";
+    background-color: #DC3545;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 1px solid #5A6772;
+}
+
+.pergunta-quiz {
+    font-family: "monospace";
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+    height: 130px;
+}
+
+#btn-left {
+    float: left;
+    margin-left: 50px;
+}
+
+#btn-right {
+    float: right;
+    margin-right: 50px;
+}
+
+#btn-left, #btn-right, .btn-hemosc, #btn-cadastrar {
+    background-color: #DC3545;
+    width: 90px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #5A6772;
+    border-radius: 50px;
+    padding: 10px 10px;
+    display: block;
+
+}
+
+#btn-left:hover, #btn-right:hover {
+    cursor: pointer;
+    background-color: rgb(119, 35, 44);
+ 
+}
+
+#btn-left:focus, #btn-right:focus {
+    outline: 0;
+}
+
+.btn-hemosc:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(119, 35, 44);
+}
+
+.btn-hemosc:visited{
+    color: white;
+    margin-bottom: 100px;
+}
+.btn-hemosc{
+    margin-bottom: 20px;
+}
