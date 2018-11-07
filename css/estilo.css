@@ -4,12 +4,12 @@
     src: url(../font/GothamBook.ttf);
 }
 /* ###modal-botao-sobre#### */
-.modal{
+.modal.sobre{
     background-image: url(../img/IMG-20180726-WA0016.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.modal-body p{
+.sobre .modal-body p{
     text-align: justify;
 }
 .btn{
