@@ -10,9 +10,32 @@
     src: url(../font/GothamLight.ttf);
     src: url(../font/GothamBook.ttf);
 }
+/* ###modal-botao-sobre#### */
+.modal.sobre{
+    background-image: url(../img/IMG-20180726-WA0016.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sobre .modal-body p{
+    text-align: justify;
+}
+.btn{
+    background-color: #30394B
+}
+/* ############## */
 
 main{
     overflow: hidden;
+}
+
+.mapa {
+    width: 450px;
+    height: 300px;
+    margin-left: 5px
+}
+
+.modal-body p {
+    text-align: center;
 }
 
 body {
@@ -61,6 +84,7 @@ nav img{
     width: 200px;
     text-align: center;
     color: white;
+    z-index: -1
 }
 
 #b-1{
@@ -102,6 +126,7 @@ nav img{
     height: 100%;
     margin: auto;
     padding: 25% 0;
+    z-index: +2
     
 }
 
@@ -117,6 +142,10 @@ nav img{
     font-family: GothamLight;
 }
 
+.apresentacao{
+    border-bottom: 100px solid #30394b;
+}
+
 .onda{
     z-index: -1;
     position: relative;
@@ -130,9 +159,11 @@ nav img{
 .apresentacao-conteudo {
     overflow: hidden;
     padding-right: 50px;
+    
 }
 
 #boneco{
+    
     display: block;
     width: 355px;
     position: relative;
@@ -141,29 +172,22 @@ nav img{
     margin-left: 40px;
 }
 .video{
-    height: 400px;
+    height: 600px;
+    width: 100%;
+    padding: 0px 40px;
     background-color: #30394b;
-}
-.video>div{
-    width: 80%;
-    background-color: white;
-    margin: auto;
 }
 
 .central{
+    background-color: white;
+    margin-left: 50px;
     display: block;
-    
-    width: 500px;
-    border: solid black 1px;
-    margin: auto;
     border-radius: 11px;
 }
+
 .central2 {
-    
     height: 380px;
-    background-color: white;
     border-radius: 10px;
-   
 }
 
 .video-conteudo {
@@ -209,7 +233,7 @@ iframe{
     width: 600px;
     height: 400px;
     display: block;
-    border: #FF4040 solid 3px;
+    border: black solid 3px;
     border-radius: 10px;
 }
 
