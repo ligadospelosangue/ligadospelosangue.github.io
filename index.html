@@ -17,7 +17,7 @@
         crossorigin="anonymous">
 </head>
 
-<body onload = "renderQuestion()">
+<body onload="renderQuestion()">
     <header>
 
         <nav class="navbar-expand-xl">
@@ -124,27 +124,35 @@
         </div>
         <div class="vcsabia">
             <div id="h1">
+                <!-- -----------------------------------------------------CURIOSIDADES----------------------->
                 <h1>Você Sabia?</h1>
             </div>
             <div class="faixa"></div>
             <div class="gotas">
-                <div><img src="img/GOTS.png" alt="Gota"></div>
-                <div><img src="img/GOTS.png" alt="Gota"></div>
-                <div><img src="img/GOTS.png" alt="Gota"></div>
-                <div><img src="img/GOTS.png" alt="Gota"></div>
-                <div><img src="img/GOTS.png" alt="Gota"></div>
-                <div><img src="img/GOTS.png" alt="Gota"></div>
+                <div id="div-intermediaria-gotas">
+                    <div class="gota" id="gota01" onclick="trocaCuriosidade(this.id)"><img src="img/icon/icon (4).png"
+                            alt="Gota"></div>
+                    <div class="gota" id="gota02" onclick="trocaCuriosidade(this.id)"><img src="img/icon/icon (14).png "
+                            alt="Gota"></div>
+                    <div class="gota" id="gota03" onclick="trocaCuriosidade(this.id)"><img src="img/icon/icon (5).png"
+                            alt="Gota"></div>
+                    <div class="gota" id="gota04" onclick="trocaCuriosidade(this.id)"><img src="img/icon/icon (7).png"
+                            alt="Gota"></div>
+                    <div class="gota" id="gota05" onclick="trocaCuriosidade(this.id)"><img src="img/icon/icon (3).png"
+                            alt="Gota"></div>
+                    <div class="gota" id="gota06" onclick="trocaCuriosidade(this.id)"><img src="img/icon/icon (16).png"
+                            alt="Gota"></div>
+                </div>
             </div>
             <div id="div_maior">
                 <div id="curios">
-                    <div>
-                        <h1>Curiosidade nº1</h1>
-                        <div class="faixa A"></div>
-                        <p>Doar sangue não engrossa ou afina o<br>sangue isso é apenas um mito.</p>
-                    </div>
-                    <div id="caixa-red">
+                    <div id="curios-conteudo">
+                        <h1 id="curios-h1">Clique nas gotas</h1>
+                        <div id="faixa-conteudo"></div>
+                        <p id="curios-p">Conheça as curiosidades sobre doação de sangue</p>
                     </div>
                 </div>
+                <div id="caixa-red"></div>
             </div>
         </div>
         <div id="passos-doacao">
@@ -270,6 +278,7 @@
 
 
     <script src="js/script.js"></script>
+    <script src="js/curiosidades.js"></script>
 
 </body>
 
