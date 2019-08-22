@@ -1,0 +1,223 @@
+body {
+    font-family: GothamLight, Arial, Helvetica, sans-serif;
+    background-color: #FF4040;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    background-color: #FF4040;
+    display: block;
+    width: 150px;
+    height: 6px;
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header nav {
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav img {
+    max-height: 8vh;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    width: 9vw;
+    height: 8vh;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.header-text {
+    height: 65.5vh;
+}
+
+header > img {
+    max-height: 60vh;
+}
+
+.onda {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background-color: #30394b;
+}
+
+.onda-btn {
+    margin-top: -10vh;
+    width: 10vw;
+    color: white;
+    text-align: center;
+}
+
+.onda-btn a {
+    display: block;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #3c485b;
+}
+
+.onda-btn img {
+    padding-top: 2.5vw;
+    max-height: 5vw;
+    margin: auto;
+}
+
+#video {
+    height: 100vh;
+    background-color: #30394b;
+}
+
+iframe {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    display: block;
+    border-radius: 10px;
+}
+
+#video h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+
+#video p {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#video > div {
+    display: block;
+    float: right;
+    width: 80vw;
+    height: 60vh;
+    margin-top: -50vh;
+    margin-right: 5vw;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.video-text {
+    margin-left: 45vw;
+    width: 30vw;
+}
+
+#quiz {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+#curiosidade {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+#doacao {
+    width: 100%;
+    height: 100vh;
+    background-color: #30394b;
+    text-align: center;
+}
+
+#doacao h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+#doacao span { 
+    margin: 5vh auto;
+}
+
+.cards {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 25vw;
+    height: 65vh;
+    padding: 3vh;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.card :first-child {
+    font-weight: 500;
+    font-size: 2rem;
+    height: 8vh;
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    max-height: 25vh;
+}
+
+footer {
+    width: 100%;
+    height: 100vh;
+}
+
+footer div:first-child {
+    background-image: url("../img/logo_fundo.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    height: 90vh;
+}
+
+footer img {
+    display: block;
+    height: 70vh;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+footer div:last-child {
+    height: 10vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+footer small {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
