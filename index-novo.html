@@ -35,12 +35,17 @@
         </nav>
 
         <p class="header-text">
-            Doe sangue!<br>
-            Seja um verdadeiro HERÓI<br>
-            que transforma esperança em vida!
+            <span class="font-bold">Doe sangue!</span><br>Seja um verdadeiro
+            <span class="font-bold">HERÓI</span><br>que transforma
+            <span class="font-bold">esperança</span> em vida!
         </p>
 
-        <!-- <img src="img/boneco.png" id="boneco"> -->
+        <svg class="onda-svg" viewBox="0 0 300 80">
+            <path d="M 0 0 l 0 80 l 300 0 l 0 -55 Q 225 30, 150 0 T 0 0" fill="#30394b">
+            </path>
+        </svg>
+
+        <img src="img/boneco.png" id="boneco">
 
         <div class="onda">
             <div class="onda-btn">
@@ -74,18 +79,62 @@
                     <span class="line"></span>
                     <p>
                         As fake news existem até na doação de sangue.
-                        Descubra neste vídeo o que é verdade ou não.
+                        Descubra neste vídeo o que é verdade ou mito.
                     </p>
                 </div>
             </div>
         </div>
 
         <div id="quiz">
-
+            <div class="quiz-main">
+                <div>
+                    <div class="quiz-text">
+                        <h1>Descubra se você pode doar</h1>
+                        <span class="line"></span>
+                        <p>
+                            Esta é a fase incial para se tornar um herói!
+                        </p>
+                    </div>
+                </div>
+                <div id="quiz-form"></div>
+            </div>
+            <div class="quiz-footer">
+                <p>Já pensou em salvar uma vida?</p>
+                <a href="#">Seja um herói!</a>
+            </div>
         </div>
 
         <div id="curiosidade">
-
+            <h1>Você Sabia?</h1>
+            <span class="line"></span>
+            <div class="gotas">
+                <div class="gota" id="gota-1" onclick="trocaCuriosidade(this.id)">
+                    <img src="img/Icon/icon (4).png" alt="Gota">
+                </div>
+                <div class="gota" id="gota-2" onclick="trocaCuriosidade(this.id)">
+                    <img src="img/Icon/icon (14).png" alt="Gota">
+                </div>
+                <div class="gota" id="gota-3" onclick="trocaCuriosidade(this.id)">
+                    <img src="img/Icon/icon (5).png" alt="Gota">
+                </div>
+                <div class="gota" id="gota-4" onclick="trocaCuriosidade(this.id)">
+                    <img src="img/Icon/icon (7).png" alt="Gota">
+                </div>
+                <div class="gota" id="gota-5" onclick="trocaCuriosidade(this.id)">
+                    <img src="img/Icon/icon (3).png" alt="Gota">
+                </div>
+                <div class="gota" id="gota-6" onclick="trocaCuriosidade(this.id)">
+                    <img src="img/Icon/icon (16).png" alt="Gota">
+                </div>
+            </div>
+            <div id="curiosidade-img"></div>
+            <div id="curiosidade-main">
+                <div id="curiosidade-text">
+                    <h1 id="curios-h1">Clique nas gotas</h1>
+                    <div id="faixa-conteudo"></div>
+                    <p id="curios-p">Conheça as curiosidades sobre doação de sangue</p>
+                </div>
+            </div>
         </div>
 
         <div id="doacao">

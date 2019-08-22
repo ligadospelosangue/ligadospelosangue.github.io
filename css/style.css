@@ -24,12 +24,13 @@ header {
 }
 
 header nav {
-    height: 10vh;
+    height: 12vh;
     width: 90vw;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 header nav img {
@@ -39,39 +40,83 @@ header nav img {
 .nav {
     display: flex;
     flex-direction: row;
+    list-style: none;
+    text-align: center;
 }
 
 .nav li {
-    width: 9vw;
-    height: 8vh;
+    height: 4vh;
+}
+
+.nav li:first-child a {
+    border-left: #cccccc 1px solid;
+}
+
+.nav li a {
+    padding: 2vh;
     color: white;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2rem;
+    border-right: #cccccc 1px solid;
 }
 
+.nav li a:hover {
+    background-color: rgb(255, 41, 41);
+}
 .header-text {
-    height: 65.5vh;
+    position: relative;
+    top: 15vh;
+    padding-right: 5vw;
+    color: white;
+    font-size: 2.2rem;
+    display: block;
+    float: right;
+    text-align: right;
+    line-height: 2.5rem;
 }
 
-header > img {
-    max-height: 60vh;
+.font-bold {
+    font-weight: 500;
+}
+
+#boneco {
+    max-height: 65vh;
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+
+.onda-svg {
+    overflow: visible;
+    width: 100%;
+    position: absolute;
+    top: 60vh;
 }
 
 .onda {
-    width: 100vw;
+    position: absolute;
+    top: 62.5vh;
+    left: 55vw;
+    width: 40vw;
     height: 20vh;
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
-    background-color: #30394b;
+}
+
+.onda .onda-btn:first-child {
+    margin-top: -4vh;
 }
 
 .onda-btn {
-    margin-top: -10vh;
     width: 10vw;
     color: white;
     text-align: center;
+}
+
+.onda .onda-btn:last-child {
+    margin-top: 2vh;
 }
 
 .onda-btn a {
@@ -88,12 +133,18 @@ header > img {
     margin: auto;
 }
 
+.onda-btn p {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
 #video {
     height: 100vh;
     background-color: #30394b;
 }
 
 iframe {
+    z-index: 1;
     width: 50vw;
     height: 60vh;
     margin-top: 15vh;
@@ -131,7 +182,94 @@ iframe {
 #quiz {
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-color: #FF4040;
+    display: flex;
+    flex-direction: column;
+}
+
+#quiz h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+
+.quiz-text p {
+    float: right;
+    clear: both;
+    height: 10vh;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.quiz-main > div {
+    display: block;
+    width: 80vw;
+    height: 60vh;
+    margin-top: 9vh;
+    margin-left: 5vw;
+    border-radius: 10px;
+    background-color: #30394b;
+}
+
+#quiz-form {
+    z-index: 1;
+    display: block;
+    float: right;
+    width: 50vw;
+    height: 60vh;
+    margin-top: -50vh;
+    margin-right: 5vw;
+    border-radius: 10px;
+    background-color: #FF4040;
+}
+
+.quiz-text {
+    color: white;
+    margin-right: 43vw;
+    text-align: right;
+    float: right;
+    padding: 5vh;
+    width: 30vw;
+}
+
+.quiz-text .line {
+    float: right;
+}
+
+.quiz-main {
+    height: 88vh;
+    background-color: white;
+}
+
+.quiz-footer {
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5vw;
+    align-content: center;
+    width: 90vw;
+}
+
+.quiz-footer p {
+    padding-top: 3.5vh;
+    height: 8vh;
+    margin: 0;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.quiz-footer a {
+    margin-top: 2vh;
+    padding: 2vh;
+    height: 4vh;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: #30394b;
 }
 
 #curiosidade {
